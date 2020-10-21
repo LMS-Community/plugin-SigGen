@@ -4,7 +4,7 @@ PLUGIN_SIGGEN
 	EN	Signal Generator
 
 PLUGIN_SIGGEN_DESC
-	EN	Signal Generator for use with SB2/3/Transporter.  IR remote buttons: 1=function, 2=increase amplitude, 3=channel, 4=bits, 5=decrease amplitude, 6=bitrate
+	EN	Signal generator plugin for creating test tones.
 
 PLUGIN_SIGGEN_TESTSIGNAL
 	EN	Test Signal
@@ -16,7 +16,7 @@ PLUGIN_SIGGEN_R
 	EN	Right
 
 PLUGIN_SIGGEN_L+R
-	EN	Left + Right
+	EN	Both
 
 PLUGIN_SIGGEN_SINE
 	EN	Sine
@@ -29,6 +29,48 @@ PLUGIN_SIGGEN_TRIANGLE
 	
 PLUGIN_SIGGEN_SAWTOOTH
 	EN	Sawtooth
+
+PLUGIN_SIGGEN_STOP
+	EN	Stop
+
+PLUGIN_SIGGEN_STOPPED
+	EN	Stopped
+
+PLUGIN_SIGGEN_FREQUENCY
+	EN	Frequency (%s Hz)
+
+PLUGIN_SIGGEN_FUNCTION
+	EN	Function (%s)
+
+PLUGIN_SIGGEN_AMPLITUDE
+	EN	Amplitude (%s dB)
+
+PLUGIN_SIGGEN_CHANNEL
+	EN	Channel (%s)
+
+PLUGIN_SIGGEN_RATE
+	EN	Sample Rate (%s kHz)
+
+PLUGIN_SIGGEN_BITS
+	EN	Bits Per Sample (%s)
+
+PLUGIN_SIGGEN_TITLE_FREQ
+	EN	Frequency
+	
+PLUGIN_SIGGEN_TITLE_FUNC
+	EN	Function
+
+PLUGIN_SIGGEN_TITLE_AMP
+	EN	Amplitude
+
+PLUGIN_SIGGEN_TITLE_CHAN
+	EN	Channel
+
+PLUGIN_SIGGEN_TITLE_RATE
+	EN	Sample Rate
+
+PLUGIN_SIGGEN_TITLE_BITS
+	EN	Bits Per Sample
 
 RAW
 	EN	Raw PCM

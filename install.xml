@@ -3,7 +3,7 @@
 <extension>
 	<name>PLUGIN_SIGGEN</name>
 	<module>Plugins::SigGen::Plugin</module>
-	<version>1.0</version>
+	<version>1.1</version>
 	<description>PLUGIN_SIGGEN_DESC</description>
 	<defaultState>enabled</defaultState>
 	<targetApplication>

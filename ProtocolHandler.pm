@@ -6,11 +6,7 @@ use base qw(IO::Handle);
 
 use Slim::Utils::Log;
 
-my $log = Slim::Utils::Log->addLogCategory({
-	'category'     => 'plugin.siggen',
-	'defaultLevel' => 'WARN',
-	'description'  => 'PLUGIN_SIGGEN',
-});
+my $log = logger('plugin.siggen');
 
 use bytes;
 
@@ -132,8 +128,6 @@ sub sysread {
 
 	return length $_[1];
 }
-
-sub isAudioURL  { 1 }
 
 sub isRemote { 0 }
 
