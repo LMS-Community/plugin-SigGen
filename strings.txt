@@ -1,0 +1,35 @@
+# SigGen strings
+
+PLUGIN_SIGGEN
+	EN	Signal Generator
+
+PLUGIN_SIGGEN_DESC
+	EN	Signal Generator for use with SB2/3/Transporter.  IR remote buttons: 1=function, 2=increase amplitude, 3=channel, 4=bits, 5=decrease amplitude, 6=bitrate
+
+PLUGIN_SIGGEN_TESTSIGNAL
+	EN	Test Signal
+
+PLUGIN_SIGGEN_L
+	EN	Left
+	
+PLUGIN_SIGGEN_R
+	EN	Right
+
+PLUGIN_SIGGEN_L+R
+	EN	Left + Right
+
+PLUGIN_SIGGEN_SINE
+	EN	Sine
+
+PLUGIN_SIGGEN_SQUARE
+	EN	Square
+
+PLUGIN_SIGGEN_TRIANGLE
+	EN	Triangle
+	
+PLUGIN_SIGGEN_SAWTOOTH
+	EN	Sawtooth
+
+RAW
+	EN	Raw PCM
+
