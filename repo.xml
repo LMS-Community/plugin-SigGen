@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<extensions>
+  <details>
+    <title lang="EN">SigGen</title>
+  </details>
+  <plugins>
+    <plugin name="SigGen" version="1.2" minTarget="7.3" maxTarget="8.*">
+      <title lang="EN">Signal Generator</title>
+      <desc  lang="EN">Signal Generator plugin.  Now supports Squeezeplay as well as SB2/3/Transporter.</desc>
+      <creator>Triode</creator>
+      <email>triode1@btinternet.com</email>
+      <url>https://github.com/LMS-Community/plugin-SigGen/releases/download/1.2/SigGen-1.2.zip</url>
+      <sha>e6867a6ff30fc021e5fd2beea856913a49bae320</sha>
+    </plugin>
+  </plugins>
+</extensions>
