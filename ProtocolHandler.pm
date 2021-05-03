@@ -120,6 +120,18 @@ sub new {
 	return $self;
 }
 
+sub getMetadataFor {
+	my ( $class, $client, $url, $forceCurrent ) = @_;
+
+	my $icon = Plugins::SigGen::Plugin->_pluginDataFor('icon');
+
+	return {
+		icon => $icon,
+		cover => $icon,
+		bitrate => '',
+	};
+}
+
 # this handles streaming of the buffer to the player - just send the whole buffer each time
 sub sysread {
 	my $self = $_[0];

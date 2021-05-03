@@ -55,6 +55,7 @@ sub initPlugin {
 	my @menu = ({
 		stringToken => 'PLUGIN_SIGGEN',
 		id          => 'pluginSigGen',
+		icon        => 'plugins/SigGen/html/images/icon.png',
 		actions => {
 			go => {
 				cmd => [ 'siggen_menu' ],
@@ -90,7 +91,7 @@ sub exitMode {
 
 	$client->execute(['playlist', 'clear']);
 
-	for my $track (Slim::Schema->rs('Track')->search_like({ 'url' => 'siggen%' })->all) {
+	for my $track (Slim::Schema->rs('Track')->search({ 'url' => { like => 'siggen%' } })->all) {
 		$track->delete;
 	}
 
@@ -256,7 +257,7 @@ sub cliMenu {
 
 		$client->execute(['playlist', 'clear']);
 
-		for my $track (Slim::Schema->rs('Track')->search_like({ 'url' => 'siggen%' })->all) {
+		for my $track (Slim::Schema->rs('Track')->search({ 'url' => { like => 'siggen%' } })->all) {
 			$track->delete;
 		}
 
