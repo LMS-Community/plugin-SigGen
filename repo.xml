@@ -4,7 +4,7 @@
     <title lang="EN">SigGen</title>
   </details>
   <plugins>
-    <plugin name="SigGen" version="1.2" minTarget="7.3" maxTarget="8.*">
+    <plugin name="SigGen" version="1.2" minTarget="7.3" maxTarget="*">
       <title lang="EN">Signal Generator</title>
       <desc  lang="EN">Signal Generator plugin.  Now supports Squeezeplay as well as SB2/3/Transporter.</desc>
       <creator>Triode</creator>
